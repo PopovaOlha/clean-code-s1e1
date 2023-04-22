@@ -25,12 +25,14 @@
 }
 
 
-.more-info_section .eisenhower-matrix_image {
+.more-info_section
+.eisenhower-matrix_image {
     width: 100%;
 }
 
 
-.more-info_section .more-info_link {
+.more-info_section 
+.more-info_link {
     font-family: "fantasy", cursive;
 }
 
@@ -70,15 +72,16 @@
 }
 
 
-.tasks_item, .page-text {
-    list-style:none;
+.tasks_item, 
+.page-text {
+    list-style: none;
 }
 
 
 .checkbox-input,
 .input,
 .button {
-    outline:none;
+    outline: none;
 }
 
 
@@ -175,14 +178,16 @@
 }
 
 
-.delete-button .arrow-image:hover {
+.delete-button
+.arrow-image:hover {
     transform: rotateZ(0);
 }
 
 
 /* Completed */
 
-.complete-tasks_list .task {
+.complete-tasks_list 
+.task {
     text-decoration: line-through;
     color: #888;
 }
@@ -190,17 +195,23 @@
 
 /* Edit Task */
 
-.tasks-list .tasks_item .input {
+.tasks-list 
+.tasks_item 
+.input {
     display: none;
 }
 
 
-.tasks-list .edit-mode  .input {
+.tasks-list 
+.edit-mode  
+.input {
     display: inline-block;
     width: 224px;
 }
 
 
-.tasks-list .edit-mode .task {
+.tasks-list 
+.edit-mode 
+.task {
     display: none;
 }
