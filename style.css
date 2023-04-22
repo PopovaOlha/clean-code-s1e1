@@ -4,6 +4,8 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
+
 .button {
     background: none;
     border: 0px;
@@ -14,55 +16,76 @@
     cursor: pointer;
 }
 
+
 .more-info_section {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
+
 .more-info_section .eisenhower-matrix_image {
     width: 100%;
 }
+
+
 .more-info_section .more-info_link {
     font-family: fantasy, cursive;
 }
+
 
 @media (max-width:768px) {
 .more-info_section { text-align: center;
 }
 }
+
+
 .page-element_main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
 
+
 .input, .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
+
 .task-row-wrapper {
     display: flex;
 }
+
+
 .incomplete-tasks_list,
 .complete-tasks_list {
     margin:0;
     padding: 0px;
 }
+
+
 .tasks_item, .page-text {
     list-style:none;
 }
+
+
 .checkbox-input,
 .input,
 .button {
     outline:none;
 }
 
+
 .button:hover {
     color: #3a3A3a;
 }
+
+
 /* Heading */
+
 .page-text,
 .new-task_label {
     color: #333;
@@ -73,6 +96,7 @@
     margin: 0;
     text-transform: uppercase;
 }
+
 
 .input {
     margin: 0;
@@ -86,70 +110,93 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
+
+
 .input:focus {
     color: #333;
 }
 
+
 /* New Task */
+
 .new-task_label {
     display: block;
     margin: 0 0 20px;
 }
+
+
 .new-task {
     width: 318px;
 }
 
+
 /* Task list */
+
 .tasks_item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 .tasks_item {
     vertical-align: middle;
 }
 
+
 .tasks_item > .checkbox-input {
     margin: 0 10px;
 }
+
+
 .tasks_item > .task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
+
     .tasks_item .input{
     width: 226px
 }
+
 
 .delete-button .arrow-image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
+
 .delete-button .arrow-image:hover {
     transform: rotateZ(0);
 }
 
+
 /* Completed */
+
 .complete-tasks_list .task {
     text-decoration: line-through;
     color: #888;
 }
 
+
 /* Edit Task */
+
 .tasks-list .tasks_item .input {
     display:none
 }
+
 
 .tasks-list .edit-mode  .input {
     display:inline-block;
     width:224px
 }
+
 
 .tasks-list .edit-mode .task {
     display:none;
